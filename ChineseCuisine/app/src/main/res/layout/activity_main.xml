@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Spinner
+        android:id="@+id/spiner_cuisine"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:entries="@array/Chinese_Cuisine"/>
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFindView"
+        android:text="@string/btn_msg"
+        android:textColor="#541EB5" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="239dp"
+        android:text="@string/msg"
+        android:textAlignment="center"
+        android:textColor="#2A42C4"
+        android:textSize="36sp" />
+</LinearLayout>

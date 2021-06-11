@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:baselineAligned="false"
+        android:text="183801200"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="50sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="661dp">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="@string/start"
+            android:textColor="#2196F3"
+            android:onClick="onClickStart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.109" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="@string/stop"
+            android:textColor="#673AB7"
+            android:onClick="onClickStop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn"
+            app:layout_constraintVertical_bias="0.08" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="@string/reset"
+            android:textColor="#9C27B0"
+            android:onClick="onClickRestart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn2"
+            app:layout_constraintVertical_bias="0.103" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

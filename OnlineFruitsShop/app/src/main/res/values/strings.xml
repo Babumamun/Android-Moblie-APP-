@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OnlineFruitsShop</string>
+    <string name="order">CreateOrder</string>
+    <string name="order1">CreateOrderOne</string>
+    <string name="action">Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

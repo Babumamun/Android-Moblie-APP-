@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#009688"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0:00:00"
+        android:textAlignment="center"
+        android:textColor="#0E0D0A" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:onClick="onClickStart"
+        android:text="@string/btn_start"
+        android:textColor="#2196F3" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickStop"
+        android:text="@string/btn_stop"
+        android:textColor="#E91E63" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickReset"
+        android:text="@string/btn_restart"
+        android:textColor="#009688" />
+</LinearLayout>

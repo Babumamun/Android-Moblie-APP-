@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChineseCuisine</string>
+    <string name="msg">Recommend</string>
+    <string name="btn_msg">Find your chinese cuisine</string>
+    <string-array name="Chinese_Cuisine">
+        <item> Beijing Roast Duck</item>
+        <item>Noodles</item>
+        <item>Hot pot</item>
+        <item>Rice cake pork</item>
+    </string-array>
+</resources>

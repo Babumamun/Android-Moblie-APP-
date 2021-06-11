@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">All in one</string>
+    <string name="display">My Personal Apps Store</string>
+    <string name="btn">Login</string>
+    <string name="btn1">Roshambo</string>
+    <string name="btn2">GuessGame</string>
+    <string name="btn3">Beer Adviser</string>
+    <string name="btn4">Send Message</string>
+    <string name="playgame">Play Game</string>
+    <string name="result">Result</string>
+    <string name="win">Win</string>
+    <string name="guess">Guess</string>
+    <string name="Cong">Congratulation</string>
+    <string name="Result">Result</string>
+    <string name="Big"> Your Guess Number Is So Big</string>
+    <string name="Small">Your Guess Number Is So Small</string>
+</resources>
